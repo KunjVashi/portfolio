@@ -1,0 +1,250 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f5f5f5;
+  margin: 0;
+  color: #333;
+}
+
+/* Navigation */
+#home {
+  background: linear-gradient(to right, #4b0082, #5f0f99);
+  padding: 2rem 1rem;
+  color: white;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.profile_name h2 {
+  font-size: 24px;
+  margin: 0 0 0.4rem 0;
+}
+
+.contact_info {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #ddd;
+  margin-top: 4px;
+}
+
+.contact_info img {
+  width: 18px;
+  margin-right: 8px;
+}
+
+.topdiv {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.topmenu {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 8px 12px;
+  transition: 0.3s ease;
+}
+
+.topmenu:hover {
+  background: #fff;
+  color: #4b0082;
+  border-radius: 5px;
+}
+
+/* About Me */
+.about-me {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3rem;
+  background-color: #fff;
+  border-radius: 12px;
+  margin: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.profile_image {
+  width: 300px;
+  border-radius: 10px;
+  margin-right: 2rem;
+}
+
+#about-me h1 {
+  font-size: 36px;
+  color: #4b0082;
+}
+
+#about-me p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Skills */
+.all_skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.skill {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 180px;
+  text-align: center;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skill img {
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.skills h6 {
+  margin: 0.5rem 0 0.2rem;
+  font-size: 18px;
+  color: #4b0082;
+}
+
+.skills p {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Projects */
+.projects-container {
+  padding: 2rem 3rem;
+}
+
+.project-card {
+  background: #fff;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+}
+
+.project-card h3 {
+  color: #4b0082;
+  margin-bottom: 0.5rem;
+}
+
+.project-card li {
+  font-size: 16px;
+  color: #444;
+}
+
+/* Recommendations */
+.all_recommendations {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 2rem;
+  justify-content: center;
+}
+
+.recommendation {
+  background-color: #f7f1ff;
+  border-left: 4px solid #4b0082;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 280px;
+  font-style: italic;
+  color: #444;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Scroll to Top */
+.iconbutton {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #4b0082;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  right: 3%;
+  bottom: 3%;
+  cursor: pointer;
+}
+
+/* Form Pop-up */
+.popup {
+  width: 350px;
+  background-color: #f0e0ff;
+  border-radius: 10px;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  padding: 1rem;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  visibility: hidden;
+}
+
+.popup button {
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
+  background-color: white;
+  border: 2px solid #4b0082;
+  color: #4b0082;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.popup button:hover {
+  background-color: #4b0082;
+  color: white;
+}
+
+/* Form Elements */
+input, textarea {
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 10px;
+  font-family: 'Poppins', sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+fieldset {
+  border: none;
+  margin: 2rem auto;
+  width: 60%;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 10px;
+}
+
+/* Buttons */
+button {
+  background-color: #fff;
+  border: 2px solid #4b0082;
+  color: #4b0082;
+  border-radius: 6px;
+  padding: 0.6rem 1.5rem;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #4b0082;
+  color: #fff;
+}
